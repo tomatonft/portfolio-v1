@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="Web制作者　冨田典子のポートフォリオサイトです。" name="description">
+  <meta name=”robots” content=”noindex , nofollow”>
+  <meta property="og:title" content="Noriko Tomita Portfolio" />
+  <meta property="og:description" content="Web制作者　冨田典子のポートフォリオサイトです。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://noriko-tomita-web.com/" />
+  <meta property="og:image" content="https://noriko-tomita-web.com/img/ogp-image.png"/>
+  <meta property="og:site_name" content="Noriko Tomita Portfolio"/>
+  <meta property="og:locale" content="ja_JP"  />
+  <title>Noriko Tomita Portfolio</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Trispace:wght@400;500;600&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="loading">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+ <header>
+  <div class="container">
+    <div id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav id="header-nav">
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="profile/index.html">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="works/all-works.html">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav id="navi">
+      <div class="container">
+        <h1 class="nav-title title">
+          Noriko Tomita<br>Portfolio
+         </h1>
+         <p class="nav-subtitle title">- より多くの人に届ける -</p>
+        <ul class="menu hamburger-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="profile/index.html">Profile</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="works/all-works.html">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+ </header>
+ <main>
+  <section class="hero">
+    <div class="hero-bg">
+    </div>
+    <div class="container">
+     <h1 class="site-title title">
+      Noriko Tomita <br class="title-br">Portfolio
+     </h1>
+     <p class="site-subtitle title">- より多くの人に届ける -</p>
+    </div>
+    <div class="scroll-bar">
+      <span class="scroll">scroll</span>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wave">
+      <canvas></canvas>
+      <h2 class="section-title title">About</h2>
+    </div>
+
+    <div class="about-contents">
+      <div class="container">
+        <div class="about-photos">
+          <img class="about-profile-photo animate from-bottom" src="img/about-profile.jpg" loading=”lazy” alt="プロフィール写真です。">
+          <img class="letter animate from-bottom" src="img/letter.jpg" loading=”lazy” alt="万年筆と手紙の画像です。">
+        </div>
+
+        <div class="about-text">
+          <div class="about-profile animate from-bottom">
+            <p>冨田　典子</p>
+            <p>Noriko Tomita</p>
+            <p>1982.01.22</p>
+          </div>
+
+          <div class="about-details">
+            <p class="animate from-bottom">これまで音楽の講師やフリーの作曲・編曲活動をしていました。</p>
+
+            <a class="button fujiwara-btn animate from-bottom" href="https://www.noriko-fujiwara.com/" target="_blank" rel="noopener noreferrer">藤原典子</a>
+
+            <p  class="animate from-bottom">2021年からはWeb制作を始めました。
+              音楽活動は、新しい技術、表現方法に常にアンテナを張り、情報収集して行ってきました。
+              音楽講師としての仕事も、音楽教育の面からどのように学校に貢献できるかを常に考えて仕事をしておりました。
+              Web制作においても、これらの経験を活かし、お客さまのご要望に真摯に向き合い、より多くの人々に想いや情報をお届けいたします。</p>
+          </div>
+          <a class="button link-btn animate from-bottom" href="profile/index.html">to Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="gradient-bg"></div>
+  </section>
+
+  <section id="skills">
+    <div class="wave">
+      <canvas></canvas>
+      <h2 class="section-title title">Skills</h2>
+    </div>
+
+    <div class="skills-contents">
+      <div class="container">
+        <ul class="skills-web animate from-left">
+          <li>
+            <i class="bi bi-laptop-fill"></i>
+            <p>HTML, CSS, JavaScript, jQueryを使用したWebサイト制作</p>
+          </li>
+          <li>
+            <i class="bi bi-laptop-fill"></i>
+            <p>Figmaを使用したデザインカンプ作成</p>
+          </li>
+          <li>
+            <i class="bi bi-laptop-fill"></i>
+            <p>Figma, AdobeXDによるデザインカンプからのコーディング</p>
+          </li>
+          <li>
+            <i class="bi bi-laptop-fill"></i>
+            <p>Git, GitHubを利用したソースコード管理</p>
+          </li>
+        </ul>
+  
+        <ul class="skills-others animate from-right">
+          <li>
+            <i class="bi bi-pencil-fill"></i>
+            <p>中学校教諭一種免許状(音楽)、高等学校教諭一種免許状(音楽)</p>
+          </li>
+          <li>
+            <i class="bi bi-pencil-fill"></i>
+            <p>TOEIC公開テスト 860点取得 (2009年03月15日）</p>
+          </li>
+        </ul>
+
+        <div class="skills-btns animate from-bottom">
+          <a class="button link-btn" href="works/all-works.html">to Works</a>
+          <a class="button link-btn" href="https://github.com/tomatonft" target="_blank" rel="noopener noreferrer">to GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="wave">
+      <canvas></canvas>
+      <h2 class="section-title title">Works</h2>
+    </div>
+
+    <div class="works-contents">
+      <div class="swiper-container animate from-bottom">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="item">
+              <a href="works/megumi-anami.html">
+                <img class="mockup-image" src="img/mockup-megumi-anami.png" loading=”lazy” alt="「穴見めぐみ 作曲家・ピアニスト」のモックアップです。">
+              </a>
+
+              <a href="works/megumi-anami.html">
+                <h3 class="swiper-title"><span class="works-title-underline">穴見めぐみ 作曲家・ピアニスト</span></h3>
+                <p class="category">Website</p>
+                <p class="swiper-text">作曲家・ピアニストのWebサイトを作成しました。最新の活動内容とプロフィール、過去の活動履歴をシンプルに、わかりやすく紹介できるページとなるよう工夫しました。</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item">
+              <a href="works/portfolio.html">
+                <img class="mockup-image" src="img/mockup-noriko-tomita.png" loading=”lazy” alt="「Noriko Tomita Portfolio」のモックアップです。">
+              </a>
+
+              <a href="works/portfolio.html">
+                <h3 class="swiper-title"><span class="works-title-underline">Noriko Tomita Portfolio</span></h3>
+                <p class="category">Website</p>
+                <p class="swiper-text">当サイトです。2021年10月以降の1年間で作成したウェブサイトの紹介をするポートフォリオサイトです。サイト設計・デザイン・コーディングを一人で行いました。</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item">
+              <a href="works/noriko-fujiwara.html">
+                <img class="mockup-image" src="img/mockup-noriko-fujiwara.png" loading=”lazy” alt="「作曲家 藤原典子」のモックアップです。">
+              </a>
+
+              <a href="works/noriko-fujiwara.html">
+                <h3 class="swiper-title"><span class="works-title-underline">作曲家 藤原典子</span></h3>
+                <p class="category">Website</p>
+                <p class="swiper-text">作曲家 藤原典子のウェブサイトを制作しました。東京藝術大学音楽学部作曲科を卒業後、作曲、編曲、後進の指導などを行なっている音楽家のページです。</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item">
+              <a href="works/music-quiz.html">
+                <img class="mockup-image" src="img/mockup-musicquiz.png" loading=”lazy” alt="「おんがくクイズ」のモックアップです。">
+              </a>
+
+              <a href="works/music-quiz.html">
+                <h3 class="swiper-title"><span class="works-title-underline">おんがくクイズ</span></h3>
+                <p class="category">Website</p>
+                <p class="swiper-text">音符を学びはじめたお子さまのための音当てクイズゲームです。 音楽の初心者を教える仕事をしてきた経験と、Web制作の経験を活かした音当てクイズゲームを作成しました。</p>
+              </a>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="item">
+              <a href="works/andante.html">
+                <img class="mockup-image" src="img/mockup-andante.png" loading=”lazy” alt="「アンダンテピアノ教室」のモックアップです。">
+              </a>
+
+              <a href="works/andante.html">
+                <h3 class="swiper-title"><span class="works-title-underline">Andante ピアノ教室</span></h3>
+                <p class="category">Website</p>
+                <p class="swiper-text">架空の「千葉県流山市の音楽教室」をテーマにサイト設計・デザイン・コーディングを一人で行いました。</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="item">
+              <a href="works/usagi-an.html">
+                <img class="mockup-image" src="img/mockup-usagi-an.png" loading=”lazy” alt="「うさぎ庵」のモックアップです。">
+              </a>
+
+              <a href="works/usagi-an.html">
+                <h3 class="swiper-title"><span class="works-title-underline">うさぎ庵</span></h3>
+                <p class="category">Website</p>
+                <p class="swiper-text">架空の「台東区の和菓子屋さん」をテーマにサイト設計・デザイン・コーディングを一人で行いました。</p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- If we need navigation buttons -->
+        <div class="swiper-buttons">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <a class="button link-btn animate from-bottom" href="works/all-works.html">View All Works</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wave">
+      <canvas></canvas>
+      <h2 class="section-title title">Contact</h2>
+    </div>
+    <div class="contact-contents">
+      <div class="container">
+        <div class="contact-text">
+          <p class="animate from-bottom">ポートフォリオをご覧いただ誠にありがとうございます。<br>
+          ご意見・ご感想・お問い合わせ等をお寄せいただけますと幸いです。<br>
+          下記フォームに必須事項をご入力ください。</p>
+          <p class="form-attention animate from-bottom">※ <span>*</span>印がついている項目は、必ずご記入くださいますようお願いいたします。</p>
+        </div>
+
+        <form action="mail.php" method="post">
+          <label class="animate from-bottom">
+            <p>お名前<span>*</span></p>
+            <input type="text" name="お名前" class="text" required>
+          </label>
+  
+          <label class="animate from-bottom">
+            <p>お名前（ふりがな）<span>*</span></p>
+            <input type="text" name="お名前(ふりがな）" class="text" required>
+          </label>
+
+          <label class="animate from-bottom">
+            <p>メールアドレス<span>*</span></p>
+            <input type="text" name="Email" class="text" required>
+          </label>
+
+          <label class="animate from-bottom">
+            <p>お問い合わせ内容<span>*</span></p>
+            <textarea name="お問い合わせ内容" required></textarea>
+          </label>
+
+          <button type="submit" class="button link-btn animate from-bottom">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+ </main>
+ <footer>
+  <div class="container">
+    <nav class="footer-nav">
+      <ul>
+        <li><a class="button animate from-bottom" href="#">Home</a></li>
+        <li><a class="button animate from-bottom" href="profile/index.html">Profile</a></li>
+        <li><a class="button animate from-bottom" href="#skills">Skills</a></li>
+        <li><a class="button animate from-bottom" href="works/all-works.html">Works</a></li>
+        <li><a class="button animate from-bottom" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <ul class="footer-icons">
+      <li>
+        <a href="mailto:info@noriko-tomita-web.com"><i class="bi bi-envelope"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/Mirai36238644" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/tomatonft" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+      </li>
+    </ul>
+
+    <div class="footer-text">
+      <a href="#">
+        <h1 class="footer-title title">
+          Noriko Tomita<br>Portfolio
+         </h1>
+         <p class="footer-subtitle title">- より多くの人に届ける -</p>
+      </a>
+    </div>
+
+    <small>(c) Noriko Tomita</small>
+  </div>
+
+ </footer>
+ <div id="cursor"></div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/top.js"></script>
+</body>
+</html>
